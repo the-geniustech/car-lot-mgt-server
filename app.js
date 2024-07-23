@@ -9,6 +9,8 @@ import mongoSanitize from 'express-mongo-sanitize';
 import rateLimit from 'express-rate-limit';
 import xss from 'xss-clean';
 import hpp from 'hpp';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 import userRouter from './routes/userRoutes.js';
 import carRouter from './routes/carRoutes.js';
@@ -17,10 +19,16 @@ import globalErrorHandler from './controllers/errorController.js';
 import AppError from './utils/appError.js';
 import './config/passport.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 dotenv.configDotenv();
 
 const app = express();
 
+// Set the views directory
+app.set('views', path.join(__dirname, 'views'));
+// Set the view engine to Pug
 app.set('view engine', 'pug');
 
 app.use(
