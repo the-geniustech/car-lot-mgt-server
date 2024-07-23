@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Learning node, express and mongoDB",
   "type": "module",
-  "main": "app.js",
+  "main": "server.js",
   "targets": {
     "main": false
   },
