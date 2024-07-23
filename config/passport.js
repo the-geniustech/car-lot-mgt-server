@@ -10,7 +10,8 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: '/api/v1/users/auth/google/callback',
+      callbackURL:
+        'https://car-lot-mgt-server.onrender.com/api/v1/users/auth/google/callback',
     },
     async (accessToken, refreshToken, profile, done) => {
       try {
