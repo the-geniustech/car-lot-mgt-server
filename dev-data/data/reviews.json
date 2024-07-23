@@ -1,0 +1,272 @@
+[
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7a1",
+    "reviewTitle": "Great car!",
+    "review": "The Toyota Camry has been amazing for my daily commute. Smooth ride and excellent fuel economy.",
+    "rating": 5,
+    "createdAt": "2023-01-15T10:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7a1",
+    "user": "60c72b2f5f1b2c0017a7a7a2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7a2",
+    "reviewTitle": "Very reliable",
+    "review": "I've owned this car for a year now and it's very reliable. No issues so far.",
+    "rating": 4,
+    "createdAt": "2023-02-20T11:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7a1",
+    "user": "60c72b2f5f1b2c0017a7a7a3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7a3",
+    "reviewTitle": "Comfortable and efficient",
+    "review": "The Camry is extremely comfortable and very efficient on gas. Perfect for long drives.",
+    "rating": 5,
+    "createdAt": "2023-03-05T14:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7a1",
+    "user": "60c72b2f5f1b2c0017a7a7a4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7a4",
+    "reviewTitle": "Solid choice",
+    "review": "A solid choice for anyone looking for a reliable and affordable car. Toyota did a great job with the Camry.",
+    "rating": 4,
+    "createdAt": "2023-04-12T09:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7a1",
+    "user": "60c72b2f5f1b2c0017a7a7a5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7a5",
+    "reviewTitle": "Great value",
+    "review": "For the price, you can't beat the Toyota Camry. It's a great value with all the features it offers.",
+    "rating": 5,
+    "createdAt": "2023-05-20T08:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7a1",
+    "user": "60c72b2f5f1b2c0017a7a7a6"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7b1",
+    "reviewTitle": "Fuel efficient and reliable",
+    "review": "The Honda Civic is incredibly fuel efficient and has been very reliable over the past two years.",
+    "rating": 5,
+    "createdAt": "2023-01-25T12:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7b1",
+    "user": "60c72b2f5f1b2c0017a7a7b2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7b2",
+    "reviewTitle": "Sporty and fun to drive",
+    "review": "I love how sporty the Civic feels. It's a lot of fun to drive and handles really well.",
+    "rating": 4,
+    "createdAt": "2023-03-10T10:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7b1",
+    "user": "60c72b2f5f1b2c0017a7a7b3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7b3",
+    "reviewTitle": "Excellent car",
+    "review": "This is my third Honda Civic and it keeps getting better. Excellent car with great features.",
+    "rating": 5,
+    "createdAt": "2023-04-05T14:45:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7b1",
+    "user": "60c72b2f5f1b2c0017a7a7b4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7b4",
+    "reviewTitle": "Great value for money",
+    "review": "The Civic offers great value for money. It's packed with features and is very affordable.",
+    "rating": 5,
+    "createdAt": "2023-06-12T11:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7b1",
+    "user": "60c72b2f5f1b2c0017a7a7b5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7b5",
+    "reviewTitle": "Solid performance",
+    "review": "The performance of the Civic is solid. It has a good balance of power and efficiency.",
+    "rating": 4,
+    "createdAt": "2023-07-01T09:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7b1",
+    "user": "60c72b2f5f1b2c0017a7a7b6"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7c1",
+    "reviewTitle": "Amazing power",
+    "review": "The Ford Mustang has amazing power and performance. It's a joy to drive.",
+    "rating": 5,
+    "createdAt": "2023-02-05T13:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7c1",
+    "user": "60c72b2f5f1b2c0017a7a7c2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7c2",
+    "reviewTitle": "Iconic style",
+    "review": "I love the iconic style of the Mustang. It turns heads wherever I go.",
+    "rating": 4,
+    "createdAt": "2023-03-15T14:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7c1",
+    "user": "60c72b2f5f1b2c0017a7a7c3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7c3",
+    "reviewTitle": "Great performance",
+    "review": "The performance of the Mustang is great. It has a lot of power and handles well.",
+    "rating": 5,
+    "createdAt": "2023-04-10T12:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7c1",
+    "user": "60c72b2f5f1b2c0017a7a7c4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7c4",
+    "reviewTitle": "A bit pricey",
+    "review": "The Mustang is a bit pricey, but it's worth it for the performance and style.",
+    "rating": 4,
+    "createdAt": "2023-05-20T11:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7c1",
+    "user": "60c72b2f5f1b2c0017a7a7c5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7c5",
+    "reviewTitle": "Love this car",
+    "review": "I absolutely love my Mustang. It's everything I wanted in a car.",
+    "rating": 5,
+    "createdAt": "2023-06-25T10:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7c1",
+    "user": "60c72b2f5f1b2c0017a7a7c6"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7d1",
+    "reviewTitle": "Strong and powerful",
+    "review": "The Chevy Silverado is a strong and powerful truck. It handles tough jobs with ease.",
+    "rating": 5,
+    "createdAt": "2023-01-10T09:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7d1",
+    "user": "60c72b2f5f1b2c0017a7a7d2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7d2",
+    "reviewTitle": "Impressive towing capacity",
+    "review": "I'm impressed with the towing capacity of the Silverado. It handles heavy loads with ease.",
+    "rating": 4,
+    "createdAt": "2023-02-25T13:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7d1",
+    "user": "60c72b2f5f1b2c0017a7a7d3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7d3",
+    "reviewTitle": "Very reliable",
+    "review": "The Silverado has been very reliable. I haven't had any issues with it.",
+    "rating": 5,
+    "createdAt": "2023-03-20T11:45:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7d1",
+    "user": "60c72b2f5f1b2c0017a7a7d4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7d4",
+    "reviewTitle": "Comfortable ride",
+    "review": "The ride is very comfortable, even on long trips. The interior is spacious and well-designed.",
+    "rating": 4,
+    "createdAt": "2023-04-15T12:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7d1",
+    "user": "60c72b2f5f1b2c0017a7a7d5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7d5",
+    "reviewTitle": "Great value",
+    "review": "The Silverado offers great value for the price. It has a lot of features and is built to last.",
+    "rating": 5,
+    "createdAt": "2023-05-20T09:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7d1",
+    "user": "60c72b2f5f1b2c0017a7a7d6"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7e1",
+    "reviewTitle": "Amazing electric car",
+    "review": "The Tesla Model 3 is an amazing electric car. It has a long range and is very fast.",
+    "rating": 5,
+    "createdAt": "2023-02-15T14:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7e1",
+    "user": "60c72b2f5f1b2c0017a7a7e2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7e2",
+    "reviewTitle": "Cutting-edge technology",
+    "review": "The technology in the Model 3 is cutting-edge. I love the autopilot and other features.",
+    "rating": 4,
+    "createdAt": "2023-03-25T13:45:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7e1",
+    "user": "60c72b2f5f1b2c0017a7a7e3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7e3",
+    "reviewTitle": "Fast and efficient",
+    "review": "The Model 3 is very fast and efficient. I love driving it and it saves me a lot on fuel costs.",
+    "rating": 5,
+    "createdAt": "2023-04-10T12:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7e1",
+    "user": "60c72b2f5f1b2c0017a7a7e4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7e4",
+    "reviewTitle": "Great for long trips",
+    "review": "The long range of the Model 3 makes it great for long trips. I never have to worry about running out of battery.",
+    "rating": 4,
+    "createdAt": "2023-05-20T10:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7e1",
+    "user": "60c72b2f5f1b2c0017a7a7e5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7e5",
+    "reviewTitle": "Love the design",
+    "review": "The design of the Model 3 is sleek and modern. It's one of the best looking cars on the road.",
+    "rating": 5,
+    "createdAt": "2023-06-25T11:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7e1",
+    "user": "60c72b2f5f1b2c0017a7a7e6"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7f1",
+    "reviewTitle": "Luxury SUV",
+    "review": "The BMW X5 is a luxury SUV with excellent performance and a comfortable interior.",
+    "rating": 5,
+    "createdAt": "2023-01-20T14:30:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7f1",
+    "user": "60c72b2f5f1b2c0017a7a7f2"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7f2",
+    "reviewTitle": "Powerful engine",
+    "review": "The engine in the X5 is very powerful. It handles very well and is a joy to drive.",
+    "rating": 4,
+    "createdAt": "2023-02-15T13:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7f1",
+    "user": "60c72b2f5f1b2c0017a7a7f3"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7f3",
+    "reviewTitle": "Excellent features",
+    "review": "The X5 is packed with excellent features. The interior is very luxurious and comfortable.",
+    "rating": 5,
+    "createdAt": "2023-03-10T12:45:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7f1",
+    "user": "60c72b2f5f1b2c0017a7a7f4"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7f4",
+    "reviewTitle": "Great for families",
+    "review": "The X5 is great for families. It has a lot of space and is very comfortable for long trips.",
+    "rating": 4,
+    "createdAt": "2023-04-15T14:15:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7f1",
+    "user": "60c72b2f5f1b2c0017a7a7f5"
+  },
+  {
+    "_id": "60c72b2f5f1b2c0017a7a7f5",
+    "reviewTitle": "Stylish design",
+    "review": "The design of the X5 is very stylish. It's one of the best looking SUVs on the market.",
+    "rating": 5,
+    "createdAt": "2023-05-20T13:00:00Z",
+    "car": "60c72b2f5f1b2c0017a7a7f1",
+    "user": "60c72b2f5f1b2c0017a7a7f6"
+  }
+]

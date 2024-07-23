@@ -1,0 +1,56 @@
+[
+  {
+    "maker": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "price": 25000,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 120,
+    "description": "A reliable midsize sedan with excellent fuel economy and advanced safety features."
+  },
+  {
+    "maker": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "price": 22000,
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 200,
+    "description": "A compact car known for its fuel efficiency, sporty handling, and modern design."
+  },
+  {
+    "maker": "Ford",
+    "model": "Mustang",
+    "year": 2019,
+    "price": 30000,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 180,
+    "description": "A classic American muscle car with powerful performance and iconic style."
+  },
+  {
+    "maker": "Chevrolet",
+    "model": "Silverado",
+    "year": 2022,
+    "price": 40000,
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 150,
+    "description": "A full-size pickup truck with impressive towing capacity and a comfortable interior."
+  },
+  {
+    "maker": "Tesla",
+    "model": "Model 3",
+    "year": 2021,
+    "price": 35000,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 300,
+    "description": "An all-electric sedan with cutting-edge technology, long-range capabilities, and fast acceleration."
+  },
+  {
+    "maker": "BMW",
+    "model": "X5",
+    "year": 2020,
+    "price": 60000,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 170,
+    "description": "A luxury midsize SUV offering a blend of performance, comfort, and advanced technology."
+  }
+]
