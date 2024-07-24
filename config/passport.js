@@ -47,7 +47,11 @@ passport.use(
             return done(new Error('No email found in Google profile'));
           }
         }
+        console.log('New user or existing user found:', user);
+
         console.log(user);
+        console.log(accessToken, refreshToken);
+        console.log('User saved or found:', user);
 
         done(null, user);
       } catch (err) {
@@ -59,14 +63,20 @@ passport.use(
 );
 
 passport.serializeUser((user, done) => {
+  console.log('serializeUser', user);
   done(null, user.id);
 });
 
 passport.deserializeUser(async (id, done) => {
+  console.log(id);
   try {
+    console.log('deserializeUser => try-block', id);
     const user = await User.findById(id);
+    console.log('deserializeUser => try-block', user);
     done(null, user);
   } catch (err) {
+    console.log('deserializeUser => catch-block', err);
+    console.log(err);
     done(err);
   }
 });
