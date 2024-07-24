@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import passport from 'passport';
 import session from 'express-session';
+import MongoStore from 'connect-mongo';
 import cors from 'cors';
 import morgan from 'morgan';
 import helmet from 'helmet';
@@ -30,6 +31,8 @@ console.log(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
   process.env.GOOGLE_CALLBACK_URL,
+  process.env.NODE_ENV,
+  process.env.NODE_ENV === 'production',
 );
 
 const app = express();
@@ -42,12 +45,31 @@ app.set('views', path.join(__dirname, 'views'));
 // Set the view engine to Pug
 app.set('view engine', 'pug');
 
+// app.use(
+//   session({
+//     secret: process.env.COOKIE_KEY,
+//     resave: false,
+//     saveUninitialized: true,
+//     cookie: { secure: process.env.NODE_ENV === 'production' },
+//   }),
+// );
+
+const sessionStore = MongoStore.create({
+  mongoUrl: process.env.DB,
+  collectionName: 'sessions',
+});
+
 app.use(
   session({
     secret: process.env.COOKIE_KEY,
     resave: false,
-    saveUninitialized: true,
-    cookie: { secure: process.env.NODE_ENV === 'production' },
+    saveUninitialized: false,
+    store: sessionStore,
+    cookie: {
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 3 * 30 * 24 * 60 * 60 * 1000, // 3 months
+      sameSite: 'none', // Important for cross-origin requests
+    },
   }),
 );
 
