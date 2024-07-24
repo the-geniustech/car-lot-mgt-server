@@ -24,6 +24,14 @@ const __dirname = path.dirname(__filename);
 
 dotenv.configDotenv();
 
+// Log the Google client ID, client secret, and callback URL to the console for debugging purposes
+console.log(
+  'App file',
+  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_SECRET,
+  process.env.GOOGLE_CALLBACK_URL,
+);
+
 const app = express();
 
 // Trust proxy setting

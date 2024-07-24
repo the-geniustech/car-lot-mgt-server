@@ -5,6 +5,14 @@ import User from '../models/userModel.js';
 
 dotenv.config();
 
+// Log the Google client ID, client secret, and callback URL to the console for debugging purposes
+console.log(
+  'Passport file',
+  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_SECRET,
+  process.env.GOOGLE_CALLBACK_URL,
+);
+
 passport.use(
   new GoogleStrategy(
     {
@@ -13,6 +21,7 @@ passport.use(
       callbackURL: process.env.GOOGLE_CALLBACK_URL,
     },
     async (accessToken, refreshToken, profile, done) => {
+      console.log(profile);
       try {
         let user = await User.findOne({ googleId: profile.id });
 
@@ -38,9 +47,11 @@ passport.use(
             return done(new Error('No email found in Google profile'));
           }
         }
+        console.log(user);
 
         done(null, user);
       } catch (err) {
+        console.log(err);
         done(err);
       }
     },
