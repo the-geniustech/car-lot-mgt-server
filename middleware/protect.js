@@ -9,6 +9,7 @@ configDotenv();
 
 const protect = catchAsync(async (req, res, next) => {
   // Check if user is logged in from session cookie (Passport - Google oAuth)
+  console.log('protect', req.user);
   if (req.user) {
     const token = jwt.sign({ id: req.user._id }, process.env.JWT_SECRET, {
       expiresIn: process.env.JWT_EXPIRES_IN,

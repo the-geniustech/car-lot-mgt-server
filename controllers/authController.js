@@ -49,8 +49,16 @@ export const googleAuth = passport.authenticate('google', {
 // Google OAuth callback route
 export const googleAuthCallback = passport.authenticate('google', {
   successRedirect: process.env.CLIENT_URL,
-  failureRedirect: '/login/failed',
+  failureRedirect: `https://720degreehub.netlify.app/`,
 });
+
+export const googleAuthRedirect = (req, res) => {
+  console.log('googleAuthRedirect', req.user);
+  res.redirect(`${process.env.CLIENT_URL}/signup`);
+
+  // Create and send token
+  createSendToken(req.user, 200, res);
+};
 
 export const signup = catchAsync(async (req, res, next) => {
   const userDetails = {

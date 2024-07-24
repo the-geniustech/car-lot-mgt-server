@@ -26,6 +26,9 @@ dotenv.configDotenv();
 
 const app = express();
 
+// Trust proxy setting
+app.set('trust proxy', 1);
+
 // Set the views directory
 app.set('views', path.join(__dirname, 'views'));
 // Set the view engine to Pug
@@ -77,7 +80,7 @@ app.use(express.json({ extended: false }));
 
 // Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
-//
+
 // Data sanitization against XSS
 app.use(xss());
 

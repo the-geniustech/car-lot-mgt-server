@@ -5,6 +5,8 @@ import catchAsync from '../utils/catchAsync.js';
 import { createOne, deleteOne, getAll, updateOne } from './handlerFactory.js';
 
 export const getMe = (req, res, next) => {
+  console.log(req.user, req.user?.token, 'getMe');
+  // Get user document from the request
   req.params.id = req.user.id;
   req.token = req.user?.token;
   next();
